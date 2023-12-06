@@ -37,7 +37,7 @@ END;
 $$;
 ```
 ## example
-```
-select combine_uuids('866a796f-1c47-479f-bb5b-bd423d42603d','4670a105-5f4d-40bd-9084-fcb74c1ea624')
+```sql
+SELECT combine_uuids('866a796f-1c47-479f-bb5b-bd423d42603d','4670a105-5f4d-40bd-9084-fcb74c1ea624')
 -- c01ad86a-430a-0722-2bdf-41f5715cc619
 ```
