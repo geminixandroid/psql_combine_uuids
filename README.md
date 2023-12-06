@@ -1,6 +1,6 @@
 combine_uuids
 =
-### PostgreSQL function to combine two uuids into static one
+### PostgreSQL function to combine two uuids into one
 The result is always the same for the same parameters, the order of the parameters does not matter.
 ```sql
 CREATE FUNCTION combine_uuids(uuid1 uuid, uuid2 uuid) RETURNS uuid
